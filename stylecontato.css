@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    /*alinha a pagina as bordas*/
+}
+
+body{
+    background-color: #A134A4;    
+    height: 92.5%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h5{
+    font-size: large;
+}
+
+
+
+header{
+    background-color: #F3E02E;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    text-align:center;
+    height: 70px;
+    padding-top: 25px;
+
+
+}
+
+header>div>a{
+    text-decoration: none;
+    color: #A134A4;
+    border-left: 0;
+    border-right: #A134A4;
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+#logo{
+    height: 80px;
+    position: absolute;
+    top: -10px;
+    left: 120px;
+
+}
+
+header>div{
+    display: inline-block;
+    padding-right:0px ;
+}
+
+#criador{
+    border-right:0;
+}
+
+
+#container{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    /*background-color: #F3E02E;*/
+    padding-top:250px ;
+}
+
+#container>#balao{
+    width: 50%;
+    padding-top: 0px;
+    height: 70%;
+    padding-left: 370px;
+    bottom: 0%;
+    position: relative;
+}
+
+#melhor{
+    text-align: center;
+    padding-right:1200px ;
+    padding-top: 200px;
+    font-size: xxx-large;
+    color: aliceblue;
+    font-variant: small-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 300px;
+
+}
+
+#texto{
+    position: absolute;
+    bottom:28%;
+    left:25%;
+    right: 52%;
+    color: #A134A4;
+
+}
+
+#container>div{
+    display: inline-block;
+}
+
+#container>.foto{
+    width: 650px;
+    position: absolute;
+    top: 22%;
+    left: 45%;
+}
+
+body>#fundo{
+    width: 100%;
+    position: absolute;
+    padding-top: 800px;
+    padding-left: 1500px;
+}
+
+body>#fundo2{
+    width: 100%;
+    position: absolute;
+    padding-top: 600px;
+    padding-right: 1500px;
+}
+
+body>#fundo3{
+    width: 100%;
+    position: absolute;
+    padding-top: 00px;
+    padding-left: 1500px;
+}
+footer{
+    bottom: -33%;
+    background-color: #F3E02E;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    text-align:center;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+
+
+}
+
+#logo2{
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+footer>div{
+    display: inline-block;
+    
+}
+
+footer>div>a{
+    text-decoration: none;
+    color: #A134A4;
+    border-left: 0;
+    border-right: #A134A4;
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 10px;
+
+}
+
+#criador2{
+    border-right:0;
+}

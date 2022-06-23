@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    /*alinha a pagina as bordas*/
+}
+
+body{
+    background-color: #A134A4;    
+    height: 92.5%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #F3E02E;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    text-align:center;
+    height: 70px;
+    padding-top: 25px;
+
+}
+
+header>div>a{
+    text-decoration: none;
+    color: #A134A4;
+    border-left: 0;
+    border-right: #A134A4;
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+#logo{
+    height: 80px;
+    position: absolute;
+    top: -10px;
+    left: 120px;
+
+}
+
+header>div{
+    display: inline-block;
+    padding-right:0px ;
+}
+
+#criador{
+    border-right:0;
+}
+
+#tam{
+    position: absolute;
+    width: 600px;
+    left: 420px;
+    top: 250px;
+}
+
+body>#fundo{
+    width: 100%;
+    position: absolute;
+    padding-top: 600px;
+    padding-left: 1500px;
+}
+
+body>#fundo3{
+    width: 100%;
+    position: absolute;
+    padding-top: 00px;
+    padding-right: 1400px;
+}
+table{
+    font-family: 'Broadway Regular';
+    font-size: xxx-large;
+    position: absolute;
+    top: 340px;
+    left: 1100px;
+    margin: 0px;
+    border: #F3E02E;
+    border-style: dashed;
+    padding: 50px;
+    border-radius: 10%;
+    color: rgb(250, 246, 224);
+    
+
+}
+
+td{
+   border: #F3E02E;
+   border-style: solid; 
+   border-width: 1px;
+   border-left: 0;
+   border-right: 0;
+   border-top: 0;
+   padding-right:20px;
+   
+}
+
+.ml{
+    border-bottom: 0;
+}
+
+#adicionais{
+    width: 1200px;
+    position: absolute;
+    top: 970px;
+    left: 350px;
+}
+
+h2{
+    font-variant: small-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F3E02E;
+    font-size: xxx-large;
+    position: absolute;
+    top: 840px;
+    left: 620px;
+}
+
+footer{
+    bottom: -60%;
+    background-color: #F3E02E;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    text-align:center;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+
+}
+
+#logo2{
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+footer>div{
+    display: inline-block;
+    
+}
+
+footer>div>a{
+    text-decoration: none;
+    color: #A134A4;
+    border-left: 0;
+    border-right: #A134A4;
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 10px;
+
+}
+
+#criador2{
+    border-right:0;
+}
